@@ -39,15 +39,21 @@ The national election turnout rates are obtained from the US Elections Project, 
 
 ### 0. `script/00_functions.R`
 
-Defines various functions that will be used later for analysis.  
-Some functions were originally written by Benjamin Elbers (source: [here](https://htmlpreview.github.io/?https://github.com/elbersb/weightedcontrasts/blob/master/doc/holford1983.html)), and others are based on the APCI package developed by Xu and Luo (see Xu, J., & Luo, L. (2022). *APCI: an R and Stata package for visualizing and analyzing age-period-cohort data.* The R Journal, 14(2), 77). Both have been slightly modified for this project.
+This script defines various helper functions that are used throughout the analysis.  
+
+- Some functions were originally written by [Benjamin Elbers](https://htmlpreview.github.io/?https://github.com/elbersb/weightedcontrasts/blob/master/doc/holford1983.html).
+- Other functions are based on the APCI package developed by Xu and Luo (see Xu, J., & Luo, L. (2022). *APCI: an R and Stata package for visualizing and analyzing age-period-cohort data.* The R Journal, 14(2), 77).
+
+Both sets of functions have been slightly modified to suit the specific needs of this project.
 
 - **Takes in**:  
-  NONE
+  None
+
 - **Calls**:  
-  NONE
+  None
+
 - **Yields**:  
-  NONE
+  None
 
 ---
 
@@ -69,7 +75,7 @@ Imports the 1976-2020 CPS-VRS data, recodes variables for analysis, and keeps on
 Models election-year-specific non-response for the turnout question and extracts missing probabilities from the models to construct missingness-corrected weights.
 
 - **Takes in**:  
-  `data/cps.76.20.recoded.rds`
+  - `data/cps.76.20.recoded.rds`
 - **Calls**:  
   NONE
 - **Yields**:  
@@ -103,9 +109,9 @@ Generates descriptive tables/figures (specifically, Figures 1, 2, 3, S1(a), and 
 Estimates APC bounding analysis and APC-I model using linear probability models.
 
 - **Takes in**:  
-  `data/cps.76.20.recoded.wt.rds`
+  - `data/cps.76.20.recoded.wt.rds`
 - **Calls**:  
-  `script/00_functions.R`
+  - `script/00_functions.R`
 - **Yields**:  
   - `output/tex/apci_all.tex` (Table S3)  
   - `output/tex/bounding_A_nonlin.tex` (Table S7)  
@@ -127,9 +133,9 @@ Estimates APC bounding analysis and APC-I model using linear probability models.
 Estimates APC bounding analysis and APC-I model using logistic regression models (otherwise identical to `04_apc_bounding_apci_analysis.R`).
 
 - **Takes in**:  
-  `data/cps.76.20.recoded.wt.rds`
+  - `data/cps.76.20.recoded.wt.rds`
 - **Calls**:  
-  `script/00_functions.R`
+  - `script/00_functions.R`
 - **Yields**:  
   - `output/figures/nonlinear_apc_logit.pdf`  
   - `output/figures/total_apc_a12_with_api_logit.pdf` (Figure S2(a))  
