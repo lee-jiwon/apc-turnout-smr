@@ -26,7 +26,7 @@ The 1976-2020 CPS-VRS datasets are provided by the Integrated Public Use Microda
 "UNION", "EARNWEEK", "UHRSWORKORG", "WKSWORKORG", "ELIGORG", "OTPAY", "VOWHYNOT", "VOYNOTREG", "VOTEHOW", "VOTEWHEN", "VOREGHOW", "VOREG95", "VOTERES", "VOTERESP",
 "VOTED", "VOREG", "VOSUPPWT"
         
-The national election turnout rates are obtained from the US Elections Project, managed by Professor Michael P. McDonald at the University of Florida (see [US Elections Project](https://www.electproject.org/election-data/voter-turnout-data)).
+The national election turnout rates are obtained from the US Elections Project, managed by Michael P. McDonald at the University of Florida (see [US Elections Project](https://www.electproject.org/election-data/voter-turnout-data)).
 
 
 2. The following is a master file that calls all individual scripts needed for the analysis. Running this file will execute all the necessary steps in order to produce all final outputs:
@@ -42,7 +42,7 @@ The national election turnout rates are obtained from the US Elections Project, 
 This script defines various helper functions that are used throughout the analysis.  
 
 - Some functions were originally written by [Benjamin Elbers](https://htmlpreview.github.io/?https://github.com/elbersb/weightedcontrasts/blob/master/doc/holford1983.html).
-- Other functions are based on the APCI package developed by Xu and Luo (see Xu, J., & Luo, L. (2022). *APCI: an R and Stata package for visualizing and analyzing age-period-cohort data.* The R Journal, 14(2), 77).
+- Other functions are based on the APCI package developed by Jiahui Xu and Liying Luo (see Xu, J., & Luo, L. (2022). *APCI: an R and Stata package for visualizing and analyzing age-period-cohort data.* The R Journal, 14(2), 77).
 
 Both sets of functions have been slightly modified to suit the specific needs of this project.
 
