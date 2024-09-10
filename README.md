@@ -13,7 +13,7 @@ The content below is copied from the file `roadmap-for-apc-turnout.txt`, which c
 
 ### Notes
 
-1. The following data files (.csv) must be downloaded from [Here](https://www.dropbox.com/scl/fo/21plc08xo0zc59nypuwdf/APVZdluFNZiFq8ASfmsQ4j0?rlkey=uni22opsbafz3fhlw2qg77tec&st=mbcnviuk&dl=0) and placed in the `/rawdata` folder before executing any R code scripts:
+1. The following data files (.csv) must be downloaded from [here](https://www.dropbox.com/scl/fo/21plc08xo0zc59nypuwdf/APVZdluFNZiFq8ASfmsQ4j0?rlkey=uni22opsbafz3fhlw2qg77tec&st=mbcnviuk&dl=0) and placed in the `/rawdata` folder before executing any R code scripts:
 
    - `cps_vrs_1976_2020.csv` (1976-2020 Current Population Survey Voter and Registration Supplements; CPS-VRS)
    - `mcdonald_vep_turnout_1789_present.csv` (National Election Turnout Rates, 1789-2020)
