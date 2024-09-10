@@ -39,7 +39,7 @@ The national election turnout rates are obtained from the US Elections Project, 
 
 ### 0. `script/00_functions.R`
 
-This script defines various helper functions that are used throughout the analysis.  
+This script defines various (helper) functions that are used throughout the analysis.  
 
 - Some functions were originally written by [Benjamin Elbers](https://htmlpreview.github.io/?https://github.com/elbersb/weightedcontrasts/blob/master/doc/holford1983.html).
 - Other functions are based on the APCI package developed by Jiahui Xu and Liying Luo (see Xu, J., & Luo, L. (2022). *APCI: an R and Stata package for visualizing and analyzing age-period-cohort data.* The R Journal, 14(2), 77).
