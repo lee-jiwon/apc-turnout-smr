@@ -1,4 +1,4 @@
-# apc-turnout-smr
+# Replication Materials for "Age, Period, and Cohort Analysis with Bounding and Interactions."
 
 ## Overview
 
